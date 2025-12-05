@@ -17,7 +17,8 @@ I expect the tech stake to utilize the following:
 3. [**SKALE:**](https://skale.space/) (**Maybe**) If affordable a blockchain could be useful for user identification and metadata storage.
 4. **React & TypeScript:** For web app development.
 5. **Python:** For backend and AI development.
-6. **Ad Provider:** (**Unkown**) Need to find an ad provider that can integrate into UNet and will allow creators to get paid directly by the service.
+6. **SQLite:** For database entries.
+7. **Ad Provider:** (**Unkown**) Need to find an ad provider that can integrate into UNet and will allow creators to get paid directly by the service.
 
 ## Mascot
 <img width="512" height="512" alt="Ulysses" src="https://github.com/user-attachments/assets/8d51c48a-c73e-4dc6-9998-25e1d43641dc" /> <br />
