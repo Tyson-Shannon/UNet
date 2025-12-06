@@ -5,7 +5,7 @@ import UNetGif from './assets/UNet Gif 1.gif' //change gif as needed
 import UNetLogo from './assets/UNet.png'
 import './App.css'
 
-// connect to a self hosted IPFS node
+// connect to a self hosted IPFS node ------------------------------------------------------------------
 const client: IPFSHTTPClient = create({ url: 'http://127.0.0.1:5001/api/v0' })
 
 function App() {
@@ -17,11 +17,12 @@ function App() {
 
     try {
       const added = await client.add(file)
-      const url = `http://127.0.0.1:8080/ipfs/${added.path}` // local gateway
+      const url = `http://127.0.0.1:8080/ipfs/${added.path}` // local gateway----------------------------
       setVideos((prev) => [...prev, url])
     } catch (err) {
       console.error("IPFS upload error: ", err)
     }
+    event.target.value = "" // allows for the same video to be uploaded back to back
   }
 
   return (
@@ -31,7 +32,6 @@ function App() {
       </header>
       
       <div className="sidenav">
-        {/* <a href="#"><button className='sidebut'>Merch</button></a> <br/> */}
         <a href="#"><button className='sidebut'>Subscriptions</button></a> <br/>
         <a href="#"><button className='sidebut'>Upload</button></a> <br/>
         <a href="#"><button className='sidebut'>Hosting</button></a> <br/>
@@ -58,26 +58,25 @@ function App() {
           +
         </button>
       </div>
+      <div className="mainContent">
+        <div>
+          <img src={UNetGif} className="UNetGif" alt="UNet Gif" />
+        </div>
 
-      <div>
-        <img src={UNetGif} className="UNetGif" alt="UNet Gif" />
-      </div>
+        <div className='videonav'>
+          <a href="#"><button className='videobut'>Newest</button></a>
+          <a href="#"><button className='videobut'>Suggested</button></a>
+        </div>
 
-      <div className='videonav'>
-        <a href="#"><button className='videobut'>Newest</button></a>
-        <a href="#"><button className='videobut'>Suggested</button></a>
-      </div>
-
-      <div className="videoCards">
-        {videos.map((url, i) => (
-          <div key={i} className="videoCard">
-            <video controls width={300}>
-              <source src={url} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        ))}
-        
+        <div className="videoCards">
+          {videos.map((url, i) => (
+            <div key={i} className="videoCard">
+              <video controls>
+                <source src={url} type="video/mp4" />
+              </video>
+            </div>
+          ))}
+        </div>
       </div>
     </>
   )
