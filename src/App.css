@@ -6,7 +6,10 @@
 }
 
 .mainContent {
-  margin-left: 12%;  /* adjust based on your actual sidebar width */
+  margin-left: 12%;  /* adjust based on sidebar width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 

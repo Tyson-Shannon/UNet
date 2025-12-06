@@ -79,13 +79,13 @@ header{
 
 .UNetGif {
   height: 25em;
-  padding: 1.5em;
+  margin-bottom: 1.5em;
+  display: block;
+  padding: 0;
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
