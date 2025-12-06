@@ -2,9 +2,8 @@
 
 ## Current State
 - ✅ Basic React/TSX homepage
-- ✅ Can add one video from computer, host it locally on an IPFS node, and display it on the front end
-- ⚠️ Video cards are not centered or sized well
-- ⚠️ Bug where you can only post a video once
+- ✅ Can add video from computer, host it locally on an IPFS node, and display it on the front end
+- ⚠️ Video cards have pause and fullscreen buttons cut off and can be downloaded
 
 ## Short-Term Goals
 - [ ] Add account creation and login systems
