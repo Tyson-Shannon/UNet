@@ -8,3 +8,6 @@ See what we're currently working on [here](https://github.com/Tyson-Shannon/UNet
 
 ## 3. Check out current issues
 As time goes on issues may be posted [here](https://github.com/Tyson-Shannon/UNet/issues) so feel free to see if you help with any of those
+
+## 4. Help with TNet
+[TNet](https://github.com/Tyson-Shannon/TNet) is the IPFS pinning network for UNet that will allow content to be stored decentralized
