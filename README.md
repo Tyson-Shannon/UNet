@@ -1,5 +1,6 @@
 <img width="512" height="512" alt="UNet" src="https://github.com/user-attachments/assets/3ff9ef91-15e3-4795-a095-07b36a4cbfb9" /> <br />
 The **"Universal Network"** is an open source, decentralized, creator first video sharing platform <br />
+**See also [TNet](https://github.com/Tyson-Shannon/TNet)** <br />
 
 ## Goal
 This is a personal research project to explore **Web 3.0** technology and the potential to lower overhead costs for web applications, however, if you're interested feel free to contribute. <br />
