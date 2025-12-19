@@ -15,13 +15,12 @@ What we need is a happy middle ground that promotes AI minimalism, opperational 
 I expect the tech stake to utilize the following:
 1. [**IPFS:**](https://github.com/ipfs/ipfs) For file storage and possibly metadata in JSON format. We will develop a custom pinning network to store data.
 2. [**IPNS:**](https://docs.ipfs.tech/concepts/ipns/) For mutable file storage such as database files and anything else that regularly changes or updates.
-3. [**Bacalhau:**](https://github.com/bacalhau-project/bacalhau) For computation and backend.
-4. [**SKALE:**](https://skale.space/) (**Maybe**) If affordable a blockchain could be useful for user identification and metadata storage.
-5. **React & TypeScript:** For web app development.
-6. **Python:** For backend and AI development.
-7. **SQLite:** For database entries.
-8. [**WebAuthn:**](https://en.wikipedia.org/wiki/WebAuthn) For secure passwordless log in/sign up.
-9. **Ad Provider:** (**Unkown**) Need to find an ad provider that can integrate into UNet and will allow creators to get paid directly by the service.
+3. [**Bacalhau: (Maybe)**](https://github.com/bacalhau-project/bacalhau) For computation and backend.
+4. **React & TypeScript:** For web app development.
+5. **Python:** For backend and AI development.
+6. **SQLite:** For database entries.
+7. [**WebAuthn:**](https://en.wikipedia.org/wiki/WebAuthn) For secure passwordless log in/sign up.
+8. **Ad Provider:** (**Unkown**) Need to find an ad provider that can integrate into UNet and will allow creators to get paid directly by the service.
 
 ## Mascot
 <img width="512" height="512" alt="Ulysses" src="https://github.com/user-attachments/assets/8d51c48a-c73e-4dc6-9998-25e1d43641dc" /> <br />
