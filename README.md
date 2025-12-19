@@ -15,7 +15,7 @@ What we need is a happy middle ground that promotes AI minimalism, opperational 
 I expect the tech stake to utilize the following:
 1. [**IPFS:**](https://github.com/ipfs/ipfs) For file storage and possibly metadata in JSON format. We will develop a custom pinning network to store data.
 2. [**IPNS:**](https://docs.ipfs.tech/concepts/ipns/) For mutable file storage such as database files and anything else that regularly changes or updates.
-3. [**Bacalhau: (Maybe)**](https://github.com/bacalhau-project/bacalhau) For computation and backend.
+3. [**Bacalhau:**](https://github.com/bacalhau-project/bacalhau) (**Maybe**) For computation and backend.
 4. **React & TypeScript:** For web app development.
 5. **Python:** For backend and AI development.
 6. **SQLite:** For database entries.
