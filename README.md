@@ -23,7 +23,7 @@ I expect the tech stake to utilize the following:
 8. **Ad Provider:** (**Unkown**) Need to find an ad provider that can integrate into UNet and will allow creators to get paid directly by the service.
 
 ## The Network
-<img width="581" height="570" alt="UNet-TNet drawio" src="https://github.com/user-attachments/assets/a48d2560-fb83-4023-9078-5758ea63d8df" />
+<img width="581" height="570" alt="UNet-TNet drawio" src="https://github.com/user-attachments/assets/a48d2560-fb83-4023-9078-5758ea63d8df" /> <br />
 
 
 ## Mascot
