@@ -22,6 +22,11 @@ I expect the tech stake to utilize the following:
 7. [**WebAuthn:**](https://en.wikipedia.org/wiki/WebAuthn) For secure passwordless log in/sign up.
 8. **Ad Provider:** (**Unkown**) Need to find an ad provider that can integrate into UNet and will allow creators to get paid directly by the service.
 
+## The Network
+<img width="581" height="570" alt="UNet-TNet drawio" src="https://github.com/user-attachments/assets/a48d2560-fb83-4023-9078-5758ea63d8df" />
+
+
 ## Mascot
+
 <img width="512" height="512" alt="Ulysses" src="https://github.com/user-attachments/assets/8d51c48a-c73e-4dc6-9998-25e1d43641dc" /> <br />
 This is Ulysses the sea urchin. He was born 2025-07-17. <br />
